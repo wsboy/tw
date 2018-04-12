@@ -1,2 +1,6 @@
-com\westboy\controller\HelloController.class
+com\westboy\controller\UserController.class
+com\westboy\entity\UserInfoParam.class
 com\westboy\config\SwaggerConfig.class
+com\westboy\entity\BaseResponse.class
+com\westboy\aop\LogAspect.class
+com\westboy\entity\UserInfoView.class
