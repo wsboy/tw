@@ -3,7 +3,9 @@ package com.westboy.aop;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.springframework.stereotype.Component;
 
+@Component
 @Aspect
 @Slf4j
 public class LogAspect {
@@ -24,8 +26,7 @@ public class LogAspect {
         String targetName = joinPoint.getTarget().getClass().getName();
         String methodName = joinPoint.getSignature().getName();
 
-        System.out.println("123");
-        log.info("targetName={},methodName={}", targetName, methodName);
+        log.info("targetName={}#{}", targetName, methodName);
 
     }
 
