@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80e1192c-be2f-43ac-8465-e1b791deb08f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/westboy/demo/FasterxmlDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/westboy/demo/Student.java" afterDir="false" />
@@ -41,17 +42,55 @@
       <change beforePath="$PROJECT_DIR$/swagger/target/classes/com/westboy/entity/UserInfoView.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger/target/classes/conf/spring/application.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger/target/classes/conf/spring/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger/target/swagger.war" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/target/swagger.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/classes/com/westboy/aop/LogAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/classes/com/westboy/aop/LogAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/classes/com/westboy/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/classes/com/westboy/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/classes/com/westboy/aop/LogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/classes/com/westboy/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/classes/com/westboy/controller/UserController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/classes/com/westboy/entity/BaseResponse.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/classes/com/westboy/entity/UserInfoParam.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/classes/com/westboy/entity/UserInfoView.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/classes/conf/spring/application.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/classes/conf/spring/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/jsp/hello.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/aspectjrt-1.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/aspectjweaver-1.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/byte-buddy-1.6.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/classmate-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/guava-18.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/jackson-core-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/jackson-databind-2.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/javassist-3.21.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/lombok-1.16.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/mapstruct-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/reflections-0.9.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/slf4j-api-1.7.24.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/spring-aop-4.3.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/spring-beans-4.3.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/spring-context-4.3.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/spring-core-4.3.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/spring-expression-4.3.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/spring-web-4.3.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/spring-webmvc-4.3.15.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/springfox-core-2.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/springfox-schema-2.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/springfox-spi-2.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/springfox-spring-web-2.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/springfox-swagger-common-2.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/springfox-swagger-ui-2.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/springfox-swagger2-2.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/swagger-annotations-1.5.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/lib/swagger-models-1.5.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/target/swagger/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -117,11 +156,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mybatis.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mybatis.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swagger/src/main/resources/conf/mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
                 <element signature="e#857#940#0" expanded="true" />
               </folding>
@@ -132,10 +171,15 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e7925622-f719-4d48-8ea2-ddf75f81d1a7/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
@@ -182,15 +226,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MethodProxy.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.15.RELEASE/spring-core-4.3.15.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
             </state>
           </provider>
         </entry>
@@ -358,146 +393,6 @@
               <item name="tw" type="b2602c69:ProjectViewProjectNode" />
               <item name="tw" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="westboy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="westboy" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="westboy" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="westboy" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="westboy" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="westboy" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="westboy" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tw" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -533,11 +428,11 @@
       <recent name="com.westboy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\tw" />
       <recent name="C:\Users\Administrator\IdeaProjects\tw\swagger\src\main\resources" />
       <recent name="C:\Users\Administrator\IdeaProjects\tw\swagger\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\Administrator\IdeaProjects\tw\swagger-learning\src\main\resources\spring" />
       <recent name="C:\Users\Administrator\IdeaProjects\tw\swagger-learning\src\main\resources" />
-      <recent name="C:\Users\Administrator\IdeaProjects\tw\swagger-learning\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -862,29 +757,28 @@
       <workItem from="1523947382811" duration="10000" />
       <workItem from="1523950247519" duration="15797000" />
       <workItem from="1524020564930" duration="210000" />
-      <workItem from="1524021979464" duration="16403000" />
+      <workItem from="1524021979464" duration="16711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107202000" />
+    <option name="totallyTimeSpent" value="107510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.59432936" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32824427" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.20042644" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.20042644" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.2238806" />
+      <window_info anchor="right" id="Database" order="3" weight="0.2238806" />
       <window_info id="Structure" order="1" sideWeight="0.500813" side_tool="true" weight="0.1881663" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4776445" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49618322" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32279173" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -894,10 +788,10 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.42529988" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32824427" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.6401309" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" visible="true" weight="0.59432936" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.35986915" />
       <window_info anchor="bottom" id="Run with VisualVM" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.1913646" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.1913646" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32824427" />
@@ -972,13 +866,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://70391162-1e40-43bb-ad4a-4ff23d1e4869/schema/tanwuapp_v1.4.5_test/table/bas_order_rent_payment.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://70391162-1e40-43bb-ad4a-4ff23d1e4869/schema/tanwuapp_v1.4.5_test/table/bas_order.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1438,13 +1325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e7925622-f719-4d48-8ea2-ddf75f81d1a7/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swagger/src/main/java/com/westboy/aop/LogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1455,12 +1335,22 @@
     <entry file="file://$PROJECT_DIR$/swagger/src/main/resources/conf/mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <element signature="e#857#940#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e7925622-f719-4d48-8ea2-ddf75f81d1a7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
